@@ -12,11 +12,11 @@ Regras:
 
 console.log ('>>>Será que deu bom? Entre com o valor das notas<<< ')
 const Nota1 = notinhas.question ('---Insira a primeira nota---: ')
-const Nota2 = notinhas.question ('---Informe a segunda nota---: ')
-const Nota3 = notinhas.question ('---Informe a terceira nota---:')
+const Nota2 = notinhas.question ('---Insira a segunda nota---: ')
+const Nota3 = notinhas.question ('---Insira a terceira nota---:')
 const Nota4 = notinhas.question ('---Insira a quarta nota---:')
-const Nota5 = notinhas.question ('---Informe a quinta nota---: ')
-const Nota6 = notinhas.question ('---Informe a sexta nota--- :')
+const Nota5 = notinhas.question ('---Insira a quinta nota---: ')
+const Nota6 = notinhas.question ('---Insira a sexta nota--- :')
 
 const total = parseInt(Nota1) + parseInt(Nota2) + parseInt(Nota3) + parseInt(Nota4) + parseInt(Nota5) + parseInt(Nota6) 
 console.log ('--- Soma das médias ---: ' +total.toFixed(2))
