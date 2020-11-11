@@ -2,10 +2,11 @@
 
 
 
-      Uma expressão que será comparada á cada cláusula case.
-     Uma cláusula case que será comparada á expressão.
+No Switch, uma expressão que será comparada á cada cláusula case.
+Uma cláusula case que será comparada á expressão.
 
 * Sintaxe switch
+```
  switch (expressão) {
  case valueN:
     //Instruções executadas quando o resultado da expressão for igual á valorN
@@ -14,6 +15,7 @@
     //Instruções executadas quando o valor da expressão é diferente de todos os cases
     [break;]
 }
+```
 
 Caso nenhum caso seja correspondido, então o programa procura pela cláusula opicional default, que, se encontrado, tem o controle transferido à ele, executando suas instruções associadas. Se não ouver uma cláusula default, o programa continua a execução da instrução seguindo para o final do switch.
 A instrução opcional break associada com cada case garante que o programa saia da condicional switch assim que a instrução correspondente for executada  e executa a instrução que segue logo após o switch. Caso break seja omitido, o programa continua a execução para a próxima instrução dentro de switch.
